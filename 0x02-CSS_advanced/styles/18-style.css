@@ -429,7 +429,7 @@ body {
 
 .nav .nav-link {
   display: block;
-  padding: 50% 100%;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
