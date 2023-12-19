@@ -532,7 +532,7 @@ a:active {
   margin-right: auto;
 }
 
-header {
+.header {
   padding: var(--header-padding);
 }
 
