@@ -551,9 +551,9 @@ h6 {
   color: var(--text-color);
 } */
 
-/* .footer-address {
+.footer-address {
   color: var(--text-color);
-} */
+}
 
 .footer-copyright {
   margin: 0;
