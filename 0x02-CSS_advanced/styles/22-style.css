@@ -537,10 +537,12 @@ h6 {
   padding: 0.5rem;
 }
 
-html[data-section-theme="“dark”"] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  --background-color: var(--color-black);
+[data-section-theme="dark"] {
+  --text-color: #ffffff; /* Redefine text-color to color-white */
+  --section-title-color: #ffffff; /* Redefine section-title-color to color-white */
+  background-color: var(
+    --color-black
+  ); /* Set background to the variable color-black */
 }
 
 .footer-copyright {
