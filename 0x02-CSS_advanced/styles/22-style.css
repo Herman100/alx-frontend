@@ -538,8 +538,10 @@ h6 {
 }
 
 [data-section-theme="dark"] {
-  --text-color: #ffffff; /* Redefine text-color to color-white */
-  --section-title-color: #ffffff; /* Redefine section-title-color to color-white */
+  --text-color: var(--color-white); /* Redefine text-color to color-white */
+  --section-title-color: var(
+    --color-white
+  ); /* Redefine section-title-color to color-white */
   background-color: var(
     --color-black
   ); /* Set background to the variable color-black */
