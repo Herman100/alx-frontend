@@ -548,7 +548,7 @@ h6 {
 }
 
 .social-link svg {
-  fill: var(--text-color);
+  color: var(--text-color);
 }
 
 .footer-address {
