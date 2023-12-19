@@ -543,15 +543,15 @@ h6 {
   background-color: var(--color-black);
 }
 
+.footer-address {
+  color: var(--text-color);
+}
+
 .social-link {
   display: block;
   & svg {
     fill: var(--text-color);
   }
-}
-
-.footer-address {
-  color: var(--text-color);
 }
 
 .footer-copyright {
